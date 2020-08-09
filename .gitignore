@@ -1,0 +1,5 @@
+/node_modules
+**/node_modules
+/outputDir
+/config/config.js
+/dist
