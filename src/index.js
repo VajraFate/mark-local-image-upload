@@ -44,7 +44,7 @@ class markdownImageDown {
             write_file_time: 3000, // 修改文件的settimeout时间，为拷贝文件留出的时间
             downFileNameCallBack: null, // 处理下载的图片name 返回一个图片name
             filter_item: ['.git'], // 过滤某些文件夹 不去查找markdown
-            upload_iamge_url: 'https://sawiki2.nie.netease.com/editor/upload/image/',
+            upload_iamge_url: 'https://xxxx/image/', // image图床地址
         }
         this.imgMap = new Map() // 查找的img
         this.unReplaceFile = [];
