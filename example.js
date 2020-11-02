@@ -17,7 +17,7 @@ const markdownImageDown = require('./src/index'); // 文件模块
 // 传参： 这也是脚本的默认参数，根据情况可以自行修改
 let option = {
     replace_image_url: '/images',
-    read_markdown_src: '../skyline.doc.nie.netease.com/public_doc_source', // 要查找markdown文件的文件夹地址
+    read_markdown_src: 'xxx/markdown', // 要查找markdown文件的文件夹地址
     down_img_src: './images', // 下载图片到这个文件夹
     var_number: 3, // url前半部分的变量数量 比如上面的日期: /2019/5/20/、/2018/6/16/
     filter_item: ['node_modules', '_book'],
