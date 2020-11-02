@@ -142,7 +142,7 @@ class markdownImageDown {
                     const imageUrl = this.getMarkDownUrl(type, link);
                     const sawikiUrl = this.imgMap.get(imageUrl);
                     if (sawikiUrl) {
-                        const sawikiLink = `https://sawiki2.nie.netease.com/media/${sawikiUrl}`;
+                        const sawikiLink = `https://xxx.com/media/${sawikiUrl}`;
                         // console.log('imageUrl: ', imageUrl, sawikiLink);
                         data = data.replace(imageUrl, sawikiLink);
                     }
